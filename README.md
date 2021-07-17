@@ -1,0 +1,4 @@
+﻿# Earthquake Project 
+demo: https://github.com/Leon-Is-Bad-At-Coding/earthquakeL
+
+This is a program that helps us visualize earthquakes by using k-means clustering. It inputs the locations of earthquakes and groups them into centroids. Then you can input the results into Kepler for a good visualization. K-means clustering is a method that clusters earthquakes into groups of centroids. First you group every earthquake to the nearest centroid, then you take the average location to make the new centroid locations, then you repeat. I used it to find reasonable centroid locations based on the earthquakes. This way the visualization would be better. This program uses weighted k-means clustering which is the same as normal but it takes in magnitude into account. This means earthquakes with higher magnitude would affect the new centroid location more.
